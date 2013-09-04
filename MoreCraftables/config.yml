@@ -1,0 +1,42 @@
+#MoreCraftables developed by zRA1Nz - Put, "true" to enable a feature or put, "false" to disable the feature.
+#Location of Website Recipe
+WebsiteForRecipe: 'Check Out the Recipes here: http://alohacraft.net/recipes'
+
+#Enable if you want to use perms instead
+Permissions: false
+
+#Recipes
+Expbottles: true
+QuartzTools: true
+QuartzArmor: true
+Grass: true
+Netherbrick: true
+EnderPortalFrame: false
+Netherwarts: true
+Cobwebs: true
+Feather: true
+Stonebricks: true
+Soulsand: true
+MossyCobbleStone: true
+Flint: true
+Sponge: true
+Saddle: true
+Seeds: true
+Flatsnow: true
+Leather: true
+Ice: true
+GoldHorseArmor: true
+IronHorseArmor: true
+DiamondHorseArmor: true
+Nametag: true
+Obsidian: true
+ChainHelmet: true
+ChainChestplate: true
+ChainLeggings: true
+ChainBoots: true
+Mycelium: true
+Clayblock: true
+Bedrock: false
+#All Mobeggs
+MobEggs: true
+

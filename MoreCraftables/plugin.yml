@@ -1,0 +1,220 @@
+name: MoreCraftables
+version: 1.5
+description: Adds Recipes
+author: zRA1Nz
+main: Alohacraft.MoreCraftables.Main.Main
+commands:
+  morecraftables:
+    usage: Description
+    description: Shows the Recipes for MoreCraftables
+permissions:
+permissions:
+  morecraft.*:
+    default: op
+    children:
+      morecraft.items.*: true
+      morecraft.tools.*: true
+      morecraft.blocks.*: true
+      morecraft.armor.*: true
+      morecraft.mobspawners.*: true
+  morecraft.blocks.*:
+    default: op
+    children:
+      morecraft.blocks.grass: true
+      morecraft.blocks.nether_brick: true
+      morecraft.blocks.ender_portal_frame: true
+      morecraft.blocks.web: true
+      morecraft.blocks.smooth_brick: true
+      morecraft.blocks.soulsand: true
+      morecraft.blocks.bedrock: true
+      morecraft.blocks.mossy_cobblestone: true
+      morecraft.blocks.sponge: true
+      morecraft.blocks.snow: true
+      morecraft.blocks.ice: true
+      morecraft.blocks.obsidian: true
+      morecraft.blocks.mycel: true
+      morecraft.blocks.clay: true
+  morecraft.items.*:
+    default: op
+    children:
+      morecraft.items.nether_warts: true
+      morecraft.items.feather: true
+      morecraft.items.flint: true
+      morecraft.items.saddle: true
+      morecraft.items.seeds: true
+      morecraft.items.leather: true
+      morecraft.items.gold_barding: true
+      morecraft.items.iron_barding: true
+      morecraft.items.diamond_barding: true
+      morecraft.items.nametag: true
+      morecraft.items.exp_bottle: true
+  morecraft.armor.*:
+    default: op
+    children:
+      morecraft.armor.chainmail_helmet: true
+      morecraft.armor.chainmail_chestplate: true
+      morecraft.armor.chainmail_leggings: true
+      morecraft.armor.chainmail_boots: true
+      morecraft.armor.quartzchestplate: true
+      morecraft.armor.quartzhelmet: true
+      morecraft.armor.quartzleggings: true
+      morecraft.armor.quartzboots: true
+  morecraft.tools.*:
+    default: op
+    children:
+      morecraft.tools.quartzspade: true
+      morecraft.tools.quartzpickaxe: true
+      morecraft.tools.quartzaxe: true
+      morecraft.tools.quartzsword: true
+      morecraft.tools.quartzhoe: true
+  morecraft.mobeggs.*:
+    default: op
+    children:
+      morecraft.mobegg.creeper: true
+      morecraft.mobegg.skeleton: true
+      morecraft.mobegg.spider: true
+      morecraft.mobegg.zombie: true
+      morecraft.mobegg.slime: true
+      morecraft.mobegg.ghast: true
+      morecraft.mobegg.zombiepigmen: true
+      morecraft.mobegg.endermen: true
+      morecraft.mobegg.cavespider: true
+      morecraft.mobegg.silverfish: true
+      morecraft.mobegg.blaze: true
+      morecraft.mobegg.magmacube: true
+      morecraft.mobegg.bat: true
+      morecraft.mobegg.witch: true
+      morecraft.mobegg.pig: true
+      morecraft.mobegg.sheep: true
+      morecraft.mobegg.cow: true
+      morecraft.mobegg.chicken: true
+      morecraft.mobegg.squid: true
+      morecraft.mobegg.wolf: true
+      morecraft.mobegg.mooshroom: true
+      morecraft.mobegg.ocelot: true
+      morecraft.mobegg.horse: true
+      morecraft.mobegg.villager: true
+  morecraft.blocks.grass:
+    default: op
+  morecraft.blocks.netherbrick:
+    default: op
+  morecraft.blocks.ender_portal_frame:
+    default: op
+  morecraft.blocks.web:
+    default: op
+  morecraft.blocks.smooth_brick:
+    default: op
+  morecraft.blocks.soulsand:
+    default: op
+  morecraft.blocks.bedrock:
+    default: op
+  morecraft.blocks.mossy_cobblestone:
+    default: op
+  morecraft.blocks.sponge:
+    default: op
+  morecraft.blocks.snow:
+    default: op
+  morecraft.blocks.ice:
+    default: op
+  morecraft.blocks.obsidian:
+    default: op
+  morecraft.blocks.mycel:
+    default: op
+  morecraft.blocks.clay:
+    default: op
+  morecraft.items.nether_warts:
+    default: op
+  morecraft.items.feather:
+    default: op
+  morecraft.items.flint:
+    default: op
+  morecraft.items.saddle:
+    default: op
+  morecraft.items.seeds:
+    default: op
+  morecraft.items.leather:
+    default: op
+  morecraft.items.gold_barding:
+    default: op
+  morecraft.items.iron_barding:
+    default: op
+  morecraft.items.diamond_barding:
+    default: op
+  morecraft.items.nametag:
+    default: op
+  morecraft.items.exp_bottle:
+    default: op
+  morecraft.armor.chainmail_helmet:
+    default: op
+  morecraft.armor.chainmail_chestplate:
+    default: op
+  morecraft.armor.chainmail_leggings:
+    default: op
+  morecraft.armor.chainmail_boots:
+    default: op
+  morecraft.armor.quartzchestplate:
+    default: op
+  morecraft.armor.quartzhelmet:
+    default: op
+  morecraft.armor.quartzleggings:
+    default: op
+  morecraft.armor.quartzboots:
+    default: op
+  morecraft.tools.quartzspade:
+    default: op
+  morecraft.tools.quartzpickaxe:
+    default: op
+  morecraft.tools.quartzaxe:
+    default: op
+  morecraft.tools.quartzsword:
+    default: op
+  morecraft.tools.quartzhoe:
+    default: op
+  morecraft.mobegg.creeper:
+    default: op
+  morecraft.mobegg.skeleton:
+    default: op
+  morecraft.mobegg.spider:
+    default: op
+  morecraft.mobegg.zombie:
+    default: op
+  morecraft.mobegg.slime:
+    default: op
+  morecraft.mobegg.ghast:
+    default: op
+  morecraft.mobegg.zombiepigmen:
+    default: op
+  morecraft.mobegg.endermen:
+    default: op
+  morecraft.mobegg.cavespider:
+    default: op
+  morecraft.mobegg.silverfish:
+    default: op
+  morecraft.mobegg.blaze:
+    default: op
+  morecraft.mobegg.magmacube:
+    default: op
+  morecraft.mobegg.bat:
+    default: op
+  morecraft.mobegg.witch:
+    default: op
+  morecraft.mobegg.pig:
+    default: op
+  morecraft.mobegg.sheep:
+    default: op
+  morecraft.mobegg.cow:
+    default: op
+  morecraft.mobegg.chicken:
+    default: op
+  morecraft.mobegg.squid:
+    default: op
+  morecraft.mobegg.wolf:
+    default: op
+  morecraft.mobegg.mooshroom:
+    default: op
+  morecraft.mobegg.ocelot:
+    default: op
+  morecraft.mobegg.horse:
+    default: op
+  morecraft.mobegg.villager:
+    default: op
